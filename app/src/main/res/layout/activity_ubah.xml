@@ -58,7 +58,7 @@
         android:textSize="21sp"/>
 
     <Button
-        android:id="@+id/bt_ubah"
+        android:id="@+id/btn_ubah"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"

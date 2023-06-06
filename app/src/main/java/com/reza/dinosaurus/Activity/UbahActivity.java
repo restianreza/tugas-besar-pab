@@ -2,6 +2,7 @@ package com.reza.dinosaurus.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +25,7 @@ public class UbahActivity extends AppCompatActivity {
     private Button btnUbah;
     private String nama, jenis, ukuran, asal, deskripsi;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +44,7 @@ public class UbahActivity extends AppCompatActivity {
         etUkuran = findViewById(R.id.et_ukuran);
         etAsal = findViewById(R.id.et_asal);
         etDeskripsi = findViewById(R.id.et_deskripsi);
-        btnUbah = findViewById(R.id.bt_ubah);
+        btnUbah = findViewById(R.id.btn_ubah);
 
         etNama.setText(yNama);
         etJenis.setText(yJenis);
