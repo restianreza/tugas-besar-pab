@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:backgroundTint="@color/color4"
+    android:elevation="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="21sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Dino"
+            android:textColor="@color/color1"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_jenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Dino"
+            android:textColor="@color/color1"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_ukuran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ukuran Dino"
+            android:textColor="@color/color1"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_asal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asal Dino"
+            android:textColor="@color/color1"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="deskripsi Dino"
+            android:textSize="20sp"
+            android:textColor="@color/color1"
+            android:maxLines="2"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
