@@ -26,6 +26,7 @@ public interface APIRequestData {
     @FormUrlEncoded
     @POST("update.php")
     Call<ModelResponse> ardUpdate(
+            @Field("id") String id,
             @Field("nama") String nama,
             @Field("jenis") String jenis,
             @Field("ukuran") String ukuran,
