@@ -2,7 +2,6 @@ package com.reza.dinosaurus.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +24,6 @@ public class UbahActivity extends AppCompatActivity {
     private Button btnUbah;
     private String nama, jenis, ukuran, asal, deskripsi;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +80,7 @@ public class UbahActivity extends AppCompatActivity {
 
     private void ubahDino(){
         APIRequestData ARD = RetroServer.koneksiRetrofit().create(APIRequestData.class);
-        Call<ModelResponse> proses = ARD.ardUpdate(yId, yNama, yJenis, yUkuran, yAsal, yDeskripsi);
+        Call<ModelResponse> proses = ARD.ardUpdate(yId, nama, jenis, ukuran, asal, deskripsi);
 
         proses.enqueue(new Callback<ModelResponse>() {
             @Override
