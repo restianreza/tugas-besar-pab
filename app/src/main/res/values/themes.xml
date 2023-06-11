@@ -5,5 +5,12 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="Base.Theme.Dinosaurus.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color">#064635</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
     <style name="Theme.Dinosaurus" parent="Base.Theme.Dinosaurus" />
+    <style name="Theme.Dinosaurus.ActionBar" parent="Base.Theme.Dinosaurus.ActionBar"/>
 </resources>

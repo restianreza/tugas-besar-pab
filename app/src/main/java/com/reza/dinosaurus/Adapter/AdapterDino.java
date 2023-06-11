@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.reza.dinosaurus.API.APIRequestData;
 import com.reza.dinosaurus.API.RetroServer;
+import com.reza.dinosaurus.Activity.DetailActivity;
 import com.reza.dinosaurus.Activity.MainActivity;
 import com.reza.dinosaurus.Activity.UbahActivity;
 import com.reza.dinosaurus.Model.ModelDino;
@@ -74,7 +75,14 @@ public class AdapterDino extends RecyclerView.Adapter<AdapterDino.VHDino> {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    Intent pindah = new Intent(ctx, DetailActivity.class);
+                    pindah.putExtra("xId", tvId.getText().toString());
+                    pindah.putExtra("xNama", tvNama.getText().toString());
+                    pindah.putExtra("xJenis", tvJenis.getText().toString());
+                    pindah.putExtra("xUkuran", tvUkuran.getText().toString());
+                    pindah.putExtra("xAsal", tvAsal.getText().toString());
+                    pindah.putExtra("xDeskripsi", tvDeskripsi.getText().toString());
+                    ctx.startActivity(pindah);
                 }
             });
 

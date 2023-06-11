@@ -19,7 +19,7 @@
 
     <EditText
         android:id="@+id/et_nama"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nama Dino"
         android:inputType="text"
@@ -27,7 +27,7 @@
 
     <EditText
         android:id="@+id/et_jenis"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Jenis Dino"
         android:inputType="text"
@@ -35,7 +35,7 @@
 
     <EditText
         android:id="@+id/et_ukuran"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ukuran Dino"
         android:inputType="text"
@@ -43,7 +43,7 @@
 
     <EditText
         android:id="@+id/et_asal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Asal Dino"
         android:inputType="text"
@@ -51,7 +51,7 @@
 
     <EditText
         android:id="@+id/et_deskripsi"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Deskripsi Dino"
         android:inputType="text"
