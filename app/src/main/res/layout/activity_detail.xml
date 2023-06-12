@@ -36,13 +36,28 @@
                             android:textSize="24sp"
                             android:textStyle="bold"/>
 
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="   Jenis Dino"
+                                    android:textSize="22sp"
+                                    android:layout_marginTop="32dp"
+                                    android:textStyle="bold" />
+
                         <TextView
                             android:id="@+id/tv_jenis"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Jenis Dino"
-                            android:layout_marginTop="32dp"
                             android:textSize="20sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="   Ukuran Dino"
+                                    android:textSize="22sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="11dp"/>
 
                         <TextView
                             android:id="@+id/tv_ukuran"
@@ -51,12 +66,28 @@
                             android:text="ukuran Dino"
                             android:textSize="20sp"/>
 
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="   Asal Dino"
+                                    android:textSize="22sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="11dp"/>
+
                         <TextView
                             android:id="@+id/tv_asal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="asal Dino"
                             android:textSize="20sp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="   Deskripsi Dino"
+                                    android:textSize="22sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="11dp"/>
 
                         <TextView
                             android:id="@+id/tv_deskripsi"
