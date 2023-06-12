@@ -43,7 +43,8 @@
             android:layout_height="wrap_content"
             android:text="ukuran Dino"
             android:textColor="@color/color1"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/tv_asal"
@@ -51,7 +52,8 @@
             android:layout_height="wrap_content"
             android:text="asal Dino"
             android:textColor="@color/color1"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/tv_deskripsi"
@@ -60,7 +62,8 @@
             android:text="deskripsi Dino"
             android:textSize="20sp"
             android:textColor="@color/color1"
-            android:maxLines="2"/>
+            android:maxLines="2"
+            android:visibility="gone"/>
 
     </LinearLayout>
 
