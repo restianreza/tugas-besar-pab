@@ -21,7 +21,7 @@
         android:layout_alignParentRight="true"
         android:layout_margin="32dp"
         android:src="@drawable/ic_tambah"
-        android:backgroundTint="@color/color1"/>
+        android:backgroundTint="@color/color1" />
 
     <ProgressBar
         android:id="@+id/pb_dino"
