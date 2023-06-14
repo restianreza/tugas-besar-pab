@@ -39,7 +39,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="   Jenis Dino"
+                                    android:text="Jenis Dino"
                                     android:textSize="22sp"
                                     android:layout_marginTop="32dp"
                                     android:textStyle="bold" />
@@ -54,7 +54,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="   Ukuran Dino"
+                                    android:text="Ukuran Dino"
                                     android:textSize="22sp"
                                     android:textStyle="bold"
                                     android:layout_marginTop="11dp"/>
@@ -69,7 +69,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="   Asal Dino"
+                                    android:text="Asal Dino"
                                     android:textSize="22sp"
                                     android:textStyle="bold"
                                     android:layout_marginTop="11dp"/>
@@ -84,7 +84,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="   Deskripsi Dino"
+                                    android:text="Deskripsi Dino"
                                     android:textSize="22sp"
                                     android:textStyle="bold"
                                     android:layout_marginTop="11dp"/>
