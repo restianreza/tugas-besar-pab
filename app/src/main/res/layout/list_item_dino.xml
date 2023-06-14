@@ -52,8 +52,7 @@
             android:layout_height="wrap_content"
             android:text="asal Dino"
             android:textColor="@color/color1"
-            android:textSize="20sp"
-            android:visibility="gone"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/tv_deskripsi"
